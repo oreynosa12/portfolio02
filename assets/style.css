@@ -1,10 +1,10 @@
 * {
     box-sizing: border-box;
     padding: 80px;
-    margin: 10px;
+    margin: 50px;
     color: rgb(70, 128, 222);
-    display: flexbox;
-    border-style: dashed;
+    display: inline-flexbox;
+    border-style:groove;
     background-color: rgb(231, 248, 253);
 }
 
@@ -16,9 +16,21 @@ font-size: 50px;
 h1{
     display:flex;
     box-sizing:border-box;
-    background-color: aqua;
+    background-color: rgb(91, 180, 35);
     padding: 5px;
     margin: 2px;
+
+}
+.font{
+    font-style: italic;
+    color: black;
+    align-items: center;
+}
+
+.img{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
 }
 h3{
     color: rgb(249, 254, 254);
@@ -28,4 +40,11 @@ h3{
 }
 p{
     color: black;
+}
+
+footer{
+    color: black;
+    font-style: unset;
+    font-size: 20px;
+    font-weight: 100;
 }
