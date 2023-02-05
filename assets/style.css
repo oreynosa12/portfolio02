@@ -48,7 +48,21 @@ body {
   flex-direction: row;
   justify-content: space-evenly;
 }
+
 .about-me--text {
+  width: 45%;
+  text-align: center;
+}
+
+.my-work {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  ustify-content: center;
+  width: max-content;
+}
+
+.my-work {
   width: 45%;
   text-align: center;
 }
