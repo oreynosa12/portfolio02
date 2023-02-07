@@ -46,6 +46,7 @@ body {
 .about-me-section {
   margin-top: 5%;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-evenly;
   /* background-color: rgb(104, 177, 249); */
@@ -53,10 +54,11 @@ body {
 
 .about-me--text {
   color: black;
-  width: 45%;
+
   height: 60%;
   text-align: center;
   font-size: 28px;
+  flex-basis: 50%;
 }
 
 .my-work {
@@ -64,7 +66,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: max-content;
+  /* width: max-content; */
   font-size: 30px;
 }
 
@@ -77,10 +79,8 @@ body {
 }
 
 .contact-me {
-  /* display: inline-block; */
-  /* justify-content: center; */
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .font {
@@ -98,20 +98,16 @@ body {
   width: 40px;
   height: 40px;
 }
+
+.work-image img {
+  width: 100%;
+}
+
 h3 {
   display: inline-block;
-  /* color: rgb(249, 254, 254); */
-  /* background-color: rgba(17, 159, 181, 0.788); */
   font-weight: 200;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 p {
   color: black;
-}
-
-.footer {
-  color: black;
-  font-size: 20px;
-  font-weight: 100;
-  text-align: center;
 }
